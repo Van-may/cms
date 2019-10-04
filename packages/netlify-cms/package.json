@@ -1,0 +1,62 @@
+{
+  "name": "@campus-online/cms",
+  "description": "An extensible, open source, Git-based, React CMS for static sites.",
+  "version": "2.3.4-alpha.21",
+  "homepage": "https://www.netlifycms.org",
+  "repository": "https://github.com/campus-online/cms",
+  "bugs": "https://github.com/campus-online/cms/issues",
+  "main": "dist/netlify-cms.js",
+  "scripts": {
+    "watch": "webpack -w",
+    "build": "webpack",
+    "build-preview": "webpack-dev-server --open",
+    "develop": "webpack-dev-server --hot"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "netlify",
+    "cms",
+    "content editing",
+    "static site generators",
+    "jamstack"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "emotion": "^9.2.6",
+    "netlify-cms-backend-bitbucket": "^2.1.0",
+    "netlify-cms-backend-git-gateway": "^2.1.2",
+    "netlify-cms-backend-github": "^2.1.0",
+    "netlify-cms-backend-gitlab": "^2.1.1",
+    "netlify-cms-backend-test": "^2.0.6",
+    "netlify-cms-core": "^2.4.1",
+    "netlify-cms-custom-relation": "^2.0.5",
+    "netlify-cms-editor-component-image": "^2.2.0",
+    "netlify-cms-entry-loader": "^2.0.5",
+    "netlify-cms-media-library-uploadcare": "^0.3.1",
+    "netlify-cms-ui-default": "^2.2.0",
+    "netlify-cms-widget-boolean": "^2.0.5",
+    "netlify-cms-widget-date": "^2.1.0",
+    "netlify-cms-widget-datetime": "^2.0.7",
+    "netlify-cms-widget-file": "^2.2.0",
+    "netlify-cms-widget-image": "^2.1.1",
+    "netlify-cms-widget-list": "^2.1.0",
+    "netlify-cms-widget-markdown": "^2.1.0",
+    "netlify-cms-widget-number": "^2.0.5",
+    "netlify-cms-widget-object": "^2.0.5",
+    "netlify-cms-widget-relation": "^2.0.5",
+    "netlify-cms-widget-select": "^2.1.0",
+    "netlify-cms-widget-string": "^2.0.4",
+    "netlify-cms-widget-text": "^2.0.6"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^4.6.0",
+    "cross-env": "^5.2.0",
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.1",
+    "webpack-conditional-loader": "^1.0.12",
+    "webpack-dev-server": "^3.1.14"
+  }
+}
