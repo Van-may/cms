@@ -1,10 +1,10 @@
 {
-  "name": "@campus-online/cms",
+  "name": "@van-may/cms",
   "description": "An extensible, open source, Git-based, React CMS for static sites.",
   "version": "2.3.4-alpha.21",
   "homepage": "https://www.netlifycms.org",
-  "repository": "https://github.com/campus-online/cms",
-  "bugs": "https://github.com/campus-online/cms/issues",
+  "repository": "https://github.com/van-may/cms",
+  "bugs": "https://github.com/van-may/cms/issues",
   "main": "dist/netlify-cms.js",
   "scripts": {
     "watch": "webpack -w",
